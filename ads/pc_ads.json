@@ -1,0 +1,230 @@
+{
+ "version": 1,
+ "rotate_seconds": 20,
+ "_about": "ECB PC ads (Microsoft Store builds of the ECB mobile games). Public file, no secrets. Edited by Freya.",
+ "ads": [
+  {
+   "id": "launcher",
+   "kind": "house",
+   "weight": 3,
+   "title": "ECB Game Launcher",
+   "short": "All our games on PC in one place. Free.",
+   "text": "All East Coast Bazaar games on PC in one place. Free on the Microsoft Store.",
+   "url": "https://apps.microsoft.com/detail/9NX5DWTX7KCV",
+   "button": "Get it free",
+   "qr": [
+    {
+     "label": "Get it for PC",
+     "img": "qr_launcher_pc.png"
+    }
+   ]
+  },
+  {
+   "id": "testers",
+   "kind": "house",
+   "weight": 3,
+   "title": "Play our new games first",
+   "short": "Become a tester for 9 free ECB games on Android.",
+   "text": "Become a tester for nine free East Coast Bazaar games on your Android phone or tablet.",
+   "url": "https://eastcoastbazaar.ca/pages/testers",
+   "button": "Sign up",
+   "qr": [
+    {
+     "label": "Sign up on your phone",
+     "img": "qr_testers.png"
+    }
+   ]
+  },
+  {
+   "id": "meshy",
+   "kind": "affiliate",
+   "weight": 1,
+   "title": "Meshy",
+   "short": "Turn a photo or an idea into a 3D model with AI.",
+   "text": "Turn a photo or an idea into a 3D model with AI.",
+   "url": "https://eastcoastbazaar.ca/go/meshy",
+   "button": "Try Meshy"
+  },
+  {
+   "id": "higgsfield",
+   "kind": "affiliate",
+   "weight": 1,
+   "title": "Higgsfield",
+   "short": "Make short videos with AI.",
+   "text": "Make short videos and ads with AI.",
+   "url": "https://eastcoastbazaar.ca/go/higgsfield",
+   "button": "Try Higgsfield"
+  },
+  {
+   "id": "game-solitaire",
+   "kind": "house",
+   "game": "solitaire",
+   "enabled": false,
+   "weight": 2,
+   "title": "Solitaire by ECB",
+   "short": "The classic. Build each suit from Ace to King.",
+   "text": "The classic. Build each suit from Ace to King. Free from East Coast Bazaar.",
+   "url": "https://play.google.com/store/apps/details?id=com.eastcoastbazaar.solitaire",
+   "button": "Get it",
+   "qr": [
+    {
+     "label": "Get it on Android",
+     "img": "qr_solitaire_android.png"
+    }
+   ],
+   "_note": "Turn on (enabled: true) once the game is public on Google Play; add a second QR {label:'Get it for PC', img:'qr_solitaire_pc.png'} once it's on the Microsoft Store."
+  },
+  {
+   "id": "game-spider",
+   "kind": "house",
+   "game": "spider",
+   "enabled": false,
+   "weight": 2,
+   "title": "Spider Solitaire by ECB",
+   "short": "Build full runs from King down to Ace to clear the table.",
+   "text": "Build full runs from King down to Ace to clear the table. Free from East Coast Bazaar.",
+   "url": "https://play.google.com/store/apps/details?id=com.eastcoastbazaar.spider",
+   "button": "Get it",
+   "qr": [
+    {
+     "label": "Get it on Android",
+     "img": "qr_spider_android.png"
+    }
+   ],
+   "_note": "Turn on (enabled: true) once the game is public on Google Play; add a second QR {label:'Get it for PC', img:'qr_spider_pc.png'} once it's on the Microsoft Store."
+  },
+  {
+   "id": "game-freecell",
+   "kind": "house",
+   "game": "freecell",
+   "enabled": false,
+   "weight": 2,
+   "title": "FreeCell by ECB",
+   "short": "Plan your moves with four free cells to park cards in.",
+   "text": "Plan your moves with four free cells to park cards in. Free from East Coast Bazaar.",
+   "url": "https://play.google.com/store/apps/details?id=com.eastcoastbazaar.freecell",
+   "button": "Get it",
+   "qr": [
+    {
+     "label": "Get it on Android",
+     "img": "qr_freecell_android.png"
+    }
+   ],
+   "_note": "Turn on (enabled: true) once the game is public on Google Play; add a second QR {label:'Get it for PC', img:'qr_freecell_pc.png'} once it's on the Microsoft Store."
+  },
+  {
+   "id": "game-cribbage",
+   "kind": "house",
+   "game": "cribbage",
+   "enabled": false,
+   "weight": 2,
+   "title": "Cribbage by ECB",
+   "short": "Count fifteens, pairs and runs and peg your way to 121.",
+   "text": "Count fifteens, pairs and runs and peg your way to 121. Free from East Coast Bazaar.",
+   "url": "https://play.google.com/store/apps/details?id=com.eastcoastbazaar.cribbage",
+   "button": "Get it",
+   "qr": [
+    {
+     "label": "Get it on Android",
+     "img": "qr_cribbage_android.png"
+    }
+   ],
+   "_note": "Turn on (enabled: true) once the game is public on Google Play; add a second QR {label:'Get it for PC', img:'qr_cribbage_pc.png'} once it's on the Microsoft Store."
+  },
+  {
+   "id": "game-wordsearch",
+   "kind": "house",
+   "game": "wordsearch",
+   "enabled": false,
+   "weight": 2,
+   "title": "Word Search by ECB",
+   "short": "Find the hidden words in the letter grid.",
+   "text": "Find the hidden words in the letter grid. Free from East Coast Bazaar.",
+   "url": "https://play.google.com/store/apps/details?id=com.eastcoastbazaar.wordsearch",
+   "button": "Get it",
+   "qr": [
+    {
+     "label": "Get it on Android",
+     "img": "qr_wordsearch_android.png"
+    }
+   ],
+   "_note": "Turn on (enabled: true) once the game is public on Google Play; add a second QR {label:'Get it for PC', img:'qr_wordsearch_pc.png'} once it's on the Microsoft Store."
+  },
+  {
+   "id": "game-backgammon",
+   "kind": "house",
+   "game": "backgammon",
+   "enabled": false,
+   "weight": 2,
+   "title": "Backgammon by ECB",
+   "short": "Roll the dice and race all your checkers home.",
+   "text": "Roll the dice and race all your checkers home. Free from East Coast Bazaar.",
+   "url": "https://play.google.com/store/apps/details?id=com.eastcoastbazaar.backgammon",
+   "button": "Get it",
+   "qr": [
+    {
+     "label": "Get it on Android",
+     "img": "qr_backgammon_android.png"
+    }
+   ],
+   "_note": "Turn on (enabled: true) once the game is public on Google Play; add a second QR {label:'Get it for PC', img:'qr_backgammon_pc.png'} once it's on the Microsoft Store."
+  },
+  {
+   "id": "game-checkers",
+   "kind": "house",
+   "game": "checkers",
+   "enabled": false,
+   "weight": 2,
+   "title": "Checkers by ECB",
+   "short": "Jump, crown your kings and clear the board.",
+   "text": "Jump, crown your kings and clear the board. Free from East Coast Bazaar.",
+   "url": "https://play.google.com/store/apps/details?id=com.eastcoastbazaar.checkers",
+   "button": "Get it",
+   "qr": [
+    {
+     "label": "Get it on Android",
+     "img": "qr_checkers_android.png"
+    }
+   ],
+   "_note": "Turn on (enabled: true) once the game is public on Google Play; add a second QR {label:'Get it for PC', img:'qr_checkers_pc.png'} once it's on the Microsoft Store."
+  },
+  {
+   "id": "game-dailyword",
+   "kind": "house",
+   "game": "dailyword",
+   "enabled": false,
+   "weight": 2,
+   "title": "Daily Word by ECB",
+   "short": "A new word puzzle every day.",
+   "text": "A new word puzzle every day. Free from East Coast Bazaar.",
+   "url": "https://play.google.com/store/apps/details?id=com.eastcoastbazaar.dailyword",
+   "button": "Get it",
+   "qr": [
+    {
+     "label": "Get it on Android",
+     "img": "qr_dailyword_android.png"
+    }
+   ],
+   "_note": "Turn on (enabled: true) once the game is public on Google Play; add a second QR {label:'Get it for PC', img:'qr_dailyword_pc.png'} once it's on the Microsoft Store."
+  },
+  {
+   "id": "game-sudoku",
+   "kind": "house",
+   "game": "sudoku",
+   "enabled": false,
+   "weight": 2,
+   "title": "Sudoku by ECB",
+   "short": "Fill the grid so every row, column and box has 1 to 9.",
+   "text": "Fill the grid so every row, column and box has 1 to 9. Free from East Coast Bazaar.",
+   "url": "https://play.google.com/store/apps/details?id=com.eastcoastbazaar.sudoku",
+   "button": "Get it",
+   "qr": [
+    {
+     "label": "Get it on Android",
+     "img": "qr_sudoku_android.png"
+    }
+   ],
+   "_note": "Turn on (enabled: true) once the game is public on Google Play; add a second QR {label:'Get it for PC', img:'qr_sudoku_pc.png'} once it's on the Microsoft Store."
+  }
+ ]
+}
