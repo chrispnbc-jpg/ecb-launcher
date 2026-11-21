@@ -1,7 +1,14 @@
 {
  "version": 1,
- "rotate_seconds": 20,
  "_about": "ECB PC ads (Microsoft Store builds of the ECB mobile games). Public file, no secrets. Edited by Freya.",
+ "rotate_seconds": 20,
+ "cards": {
+  "_about": "Cards between games and for a free hint: which offer they show, how many seconds before they can be closed, and the background picture (Chris, 2026-11-21).",
+  "ad": "testers",
+  "wait_break": 10,
+  "wait_hint": 15,
+  "background": "card_bg.jpg"
+ },
  "ads": [
   {
    "id": "launcher",
@@ -24,8 +31,8 @@
    "kind": "house",
    "weight": 5,
    "title": "Early access: play our new games first",
-   "short": "Become a tester for 9 free ECB games on Android.",
-   "text": "Become a tester for nine free East Coast Bazaar games on your Android phone or tablet.",
+   "short": "Help bring our games to phones. Testers get the full version free.",
+   "text": "Help us bring this game to Android phones. Join our free tester group, play the phone version before anyone else, and get the full version free when it launches: no ads, every theme unlocked, and your name in the credits if you'd like.",
    "url": "https://eastcoastbazaar.ca/pages/testers",
    "button": "Sign up",
    "qr": [
