@@ -3,8 +3,8 @@
  "_about": "ECB PC ads (Microsoft Store builds of the ECB mobile games). Public file, no secrets. Edited by Freya.",
  "rotate_seconds": 20,
  "cards": {
-  "_about": "Cards between games and for a free hint: which offer they show, how many seconds before they can be closed, and the background picture (Chris, 2026-11-21).",
-  "ad": "testers",
+  "_about": "Cards between games and for a free hint. ad = an offer id to always show that one, or mix = pick by weight among offers with a QR code. Mix is set to half ECB house ads, half affiliate offers (Chris, 2026-11-21): house weights (testers + launcher) add up to the same as affiliate weights (meshy + higgsfield). The bottom banner takes turns through every offer. Waits are seconds before the card can be closed.",
+  "ad": "mix",
   "wait_break": 10,
   "wait_hint": 15,
   "background": "card_bg.jpg"
@@ -13,7 +13,7 @@
   {
    "id": "launcher",
    "kind": "house",
-   "weight": 3,
+   "weight": 1,
    "title": "ECB Game Launcher",
    "short": "All our games on PC in one place. Free.",
    "text": "All East Coast Bazaar games on PC in one place. Free on the Microsoft Store.",
@@ -29,7 +29,7 @@
   {
    "id": "testers",
    "kind": "house",
-   "weight": 5,
+   "weight": 3,
    "title": "Early access: play our new games first",
    "short": "Help bring our games to phones. Testers get the full version free.",
    "text": "Help us bring this game to Android phones. Join our free tester group, play the phone version before anyone else, and get the full version free when it launches: no ads, every theme unlocked, and your name in the credits if you'd like.",
@@ -45,22 +45,34 @@
   {
    "id": "meshy",
    "kind": "affiliate",
-   "weight": 1,
+   "weight": 2,
    "title": "Meshy",
    "short": "Turn a photo or an idea into a 3D model with AI.",
-   "text": "Turn a photo or an idea into a 3D model with AI.",
+   "text": "Turn a photo or an idea into a 3D model with AI. Great for game props, figures and 3D printing.",
    "url": "https://eastcoastbazaar.ca/go/meshy",
-   "button": "Try Meshy"
+   "button": "Try Meshy",
+   "qr": [
+    {
+     "label": "Try it on your phone",
+     "img": "qr_meshy.png"
+    }
+   ]
   },
   {
    "id": "higgsfield",
    "kind": "affiliate",
-   "weight": 1,
+   "weight": 2,
    "title": "Higgsfield",
    "short": "Make short videos with AI.",
-   "text": "Make short videos and ads with AI.",
+   "text": "Make short videos and ads with AI, from a photo or a few words.",
    "url": "https://eastcoastbazaar.ca/go/higgsfield",
-   "button": "Try Higgsfield"
+   "button": "Try Higgsfield",
+   "qr": [
+    {
+     "label": "Try it on your phone",
+     "img": "qr_higgsfield.png"
+    }
+   ]
   },
   {
    "id": "game-solitaire",
