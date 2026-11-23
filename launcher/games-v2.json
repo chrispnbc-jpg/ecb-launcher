@@ -1,0 +1,500 @@
+{
+  "schema": 2,
+  "updated": "2026-11-23",
+  "games": [
+    {
+      "id": "grand-farms",
+      "title": "Grand Farms",
+      "tagline": "Plant, raise and grow your own farm in a cozy valley.",
+      "engine": "unity",
+      "category": "farming",
+      "platform": "windows",
+      "version": "0.1.0",
+      "download": null,
+      "exe": "GrandFarms.exe",
+      "launchGate": true,
+      "art": {
+        "hero": "assets/games/grand-farms/hero.webp",
+        "icon": "assets/games/grand-farms/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar",
+          "url": "https://eastcoastbazaar.ca"
+        }
+      ],
+      "news": "https://github.com/chrispnbc-jpg/ecb-launcher/releases/latest/download/news-grand-farms.json",
+      "order": 10,
+      "visible": true
+    },
+    {
+      "id": "solitaire",
+      "title": "Solitaire",
+      "tagline": "Classic Klondike solitaire: draw one or three, with unlimited undo and a tutorial to get you started.",
+      "engine": "godot",
+      "category": "cards",
+      "platform": "windows",
+      "free": true,
+      "msStore": {
+        "productId": "9N51RQQ2643F"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/solitaire/hero.webp",
+        "icon": "assets/games/solitaire/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 100,
+      "visible": true
+    },
+    {
+      "id": "spider",
+      "title": "Spider Solitaire",
+      "tagline": "Build King-to-Ace runs with one, two or four suits.",
+      "engine": "godot",
+      "category": "cards",
+      "platform": "windows",
+      "free": true,
+      "msStore": {
+        "productId": "9NQ30PDTTVP8"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/spider/hero.webp",
+        "icon": "assets/games/spider/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 110,
+      "visible": true
+    },
+    {
+      "id": "freecell",
+      "title": "FreeCell",
+      "tagline": "Every card face up and four free cells: almost every deal can be won.",
+      "engine": "godot",
+      "category": "cards",
+      "platform": "windows",
+      "free": true,
+      "msStore": {
+        "productId": "9N9X2ZVL1KTJ"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/freecell/hero.webp",
+        "icon": "assets/games/freecell/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 120,
+      "visible": true
+    },
+    {
+      "id": "cribbage",
+      "title": "Cribbage",
+      "tagline": "Peg your way to 121 against the computer. The game does all the counting.",
+      "engine": "godot",
+      "category": "cards",
+      "platform": "windows",
+      "free": true,
+      "msStore": {
+        "productId": "9NL2RQ6GH3XQ"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/cribbage/hero.webp",
+        "icon": "assets/games/cribbage/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 130,
+      "visible": true
+    },
+    {
+      "id": "wordsearch",
+      "title": "Word Search",
+      "tagline": "Find the hidden words, with themes and three sizes to choose from.",
+      "engine": "godot",
+      "category": "puzzle",
+      "platform": "windows",
+      "free": true,
+      "msStore": {
+        "productId": "9MSMXQBCX5HG"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/wordsearch/hero.webp",
+        "icon": "assets/games/wordsearch/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 140,
+      "visible": true
+    },
+    {
+      "id": "backgammon",
+      "title": "Backgammon",
+      "tagline": "Race your checkers home and bear them off before the computer does.",
+      "engine": "godot",
+      "category": "cards",
+      "platform": "windows",
+      "free": true,
+      "msStore": {
+        "productId": "9P74V46PWMFK"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/backgammon/hero.webp",
+        "icon": "assets/games/backgammon/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 150,
+      "visible": true
+    },
+    {
+      "id": "checkers",
+      "title": "Checkers",
+      "tagline": "Jump, crown and capture against the computer, from easy to hard.",
+      "engine": "godot",
+      "category": "cards",
+      "platform": "windows",
+      "free": true,
+      "msStore": {
+        "productId": "9P9TCRDC1HXW"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/checkers/hero.webp",
+        "icon": "assets/games/checkers/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 160,
+      "visible": true
+    },
+    {
+      "id": "dailyword",
+      "title": "Daily Word",
+      "tagline": "Guess the five-letter word in six tries. A new word every day, plus practice words.",
+      "engine": "godot",
+      "category": "puzzle",
+      "platform": "windows",
+      "free": true,
+      "msStore": {
+        "productId": "9PGFHWGVC7BF"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/dailyword/hero.webp",
+        "icon": "assets/games/dailyword/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 170,
+      "visible": true
+    },
+    {
+      "id": "sudoku",
+      "title": "Sudoku",
+      "tagline": "A coastal puzzle journey across Canada, with a daily puzzle and hints that explain why.",
+      "engine": "godot",
+      "category": "puzzle",
+      "platform": "windows",
+      "free": true,
+      "msStore": {
+        "productId": "9P2J79425S7C"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/sudoku/hero.webp",
+        "icon": "assets/games/sudoku/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 180,
+      "visible": true
+    },
+    {
+      "id": "solitaire-mobile",
+      "title": "Solitaire",
+      "tagline": "Classic Klondike solitaire: draw one or three, with unlimited undo and a tutorial to get you started.",
+      "engine": "godot",
+      "category": "cards",
+      "platform": "android",
+      "free": true,
+      "testers": {
+        "signup": "https://eastcoastbazaar.ca/pages/testers"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/solitaire/hero.webp",
+        "icon": "assets/games/solitaire/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 1100,
+      "visible": true
+    },
+    {
+      "id": "spider-mobile",
+      "title": "Spider Solitaire",
+      "tagline": "Build King-to-Ace runs with one, two or four suits.",
+      "engine": "godot",
+      "category": "cards",
+      "platform": "android",
+      "free": true,
+      "testers": {
+        "signup": "https://eastcoastbazaar.ca/pages/testers"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/spider/hero.webp",
+        "icon": "assets/games/spider/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 1110,
+      "visible": true
+    },
+    {
+      "id": "freecell-mobile",
+      "title": "FreeCell",
+      "tagline": "Every card face up and four free cells: almost every deal can be won.",
+      "engine": "godot",
+      "category": "cards",
+      "platform": "android",
+      "free": true,
+      "testers": {
+        "signup": "https://eastcoastbazaar.ca/pages/testers"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/freecell/hero.webp",
+        "icon": "assets/games/freecell/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 1120,
+      "visible": true
+    },
+    {
+      "id": "cribbage-mobile",
+      "title": "Cribbage",
+      "tagline": "Peg your way to 121 against the computer. The game does all the counting.",
+      "engine": "godot",
+      "category": "cards",
+      "platform": "android",
+      "free": true,
+      "testers": {
+        "signup": "https://eastcoastbazaar.ca/pages/testers"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/cribbage/hero.webp",
+        "icon": "assets/games/cribbage/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 1130,
+      "visible": true
+    },
+    {
+      "id": "wordsearch-mobile",
+      "title": "Word Search",
+      "tagline": "Find the hidden words, with themes and three sizes to choose from.",
+      "engine": "godot",
+      "category": "puzzle",
+      "platform": "android",
+      "free": true,
+      "testers": {
+        "signup": "https://eastcoastbazaar.ca/pages/testers"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/wordsearch/hero.webp",
+        "icon": "assets/games/wordsearch/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 1140,
+      "visible": true
+    },
+    {
+      "id": "backgammon-mobile",
+      "title": "Backgammon",
+      "tagline": "Race your checkers home and bear them off before the computer does.",
+      "engine": "godot",
+      "category": "cards",
+      "platform": "android",
+      "free": true,
+      "testers": {
+        "signup": "https://eastcoastbazaar.ca/pages/testers"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/backgammon/hero.webp",
+        "icon": "assets/games/backgammon/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 1150,
+      "visible": true
+    },
+    {
+      "id": "checkers-mobile",
+      "title": "Checkers",
+      "tagline": "Jump, crown and capture against the computer, from easy to hard.",
+      "engine": "godot",
+      "category": "cards",
+      "platform": "android",
+      "free": true,
+      "testers": {
+        "signup": "https://eastcoastbazaar.ca/pages/testers"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/checkers/hero.webp",
+        "icon": "assets/games/checkers/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 1160,
+      "visible": true
+    },
+    {
+      "id": "dailyword-mobile",
+      "title": "Daily Word",
+      "tagline": "Guess the five-letter word in six tries. A new word every day, plus practice words.",
+      "engine": "godot",
+      "category": "puzzle",
+      "platform": "android",
+      "free": true,
+      "testers": {
+        "signup": "https://eastcoastbazaar.ca/pages/testers"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/dailyword/hero.webp",
+        "icon": "assets/games/dailyword/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 1170,
+      "visible": true
+    },
+    {
+      "id": "sudoku-mobile",
+      "title": "Sudoku",
+      "tagline": "A coastal puzzle journey across Canada, with a daily puzzle and hints that explain why.",
+      "engine": "godot",
+      "category": "puzzle",
+      "platform": "android",
+      "free": true,
+      "testers": {
+        "signup": "https://eastcoastbazaar.ca/pages/testers"
+      },
+      "launchGate": false,
+      "art": {
+        "hero": "assets/games/sudoku/hero.webp",
+        "icon": "assets/games/sudoku/icon.webp"
+      },
+      "ratingLabel": null,
+      "links": [
+        {
+          "label": "East Coast Bazaar games",
+          "url": "https://eastcoastbazaar.ca/pages/games"
+        }
+      ],
+      "order": 1180,
+      "visible": true
+    }
+  ]
+}
